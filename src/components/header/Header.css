@@ -1,7 +1,13 @@
 .app-header{
     padding: 5px;
-    background-color: coral;
+    background-color: #06283D;
 }
-.app-title{
-    margin: 1.5px;
+#vayuhastra-logo{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+    object-fit: contain;
+    margin: 5px;
+    margin-left: 20px;
 }

@@ -1,10 +1,13 @@
 import "./Header.css"
+
+//images
+import vayu_logo from "../../images/vayuvyastra_logo_name.png"
 function Header() {
   return (
     <>
       <div className="app-header" >
-        <h2 className="app-title" >Satellite</h2>
-        <h3>Lowda</h3>
+        <img src={vayu_logo} alt="vayuhastra logo" id="vayuhastra-logo" />
+        
       </div>
     </>
   )
