@@ -1,6 +1,7 @@
 .app-header{
     padding: 5px;
     background-color: #06283D;
+    height: 50px;
 }
 #vayuhastra-logo{
     border: 2px solid whitesmoke;
@@ -10,4 +11,8 @@
     object-fit: contain;
     margin: 5px;
     margin-left: 20px;
+    cursor: pointer;
+}
+#vayuhastra-logo:active{
+    scale: 0.9;
 }
