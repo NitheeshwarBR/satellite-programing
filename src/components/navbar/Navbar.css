@@ -2,6 +2,13 @@
     width: 100px;
     background-color: rgb(237, 194, 194);
     height: 100vh;
+    position: relative;
+}
+.nav-bottom-container{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 @media screen and  (max-width:600px){
     .nav-container{
@@ -31,5 +38,6 @@
     scale: 0.8;
 }
 .navlink-title{
-    font-weight: bold;
+    font-family: euclidCircularBMedium;
+    font-size: small;
 }

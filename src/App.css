@@ -1,3 +1,14 @@
+/* importing fonts */
+@font-face {
+    font-family: sharpSansBold;
+    src:url("../public/fonts/SharpSansBold.otf");
+  }
+  
+  @font-face {
+    font-family: euclidCircularBMedium;
+    src:url("../public/fonts/EuclidCircularBMedium.ttf");
+  }
+
 .app-container{
     display: flex;
 }
