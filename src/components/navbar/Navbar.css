@@ -1,43 +1,64 @@
-.nav-container{
-    width: 100px;
-    background-color: rgb(237, 194, 194);
-    height: 100vh;
-    position: relative;
+.nav-container {
+  width: 100px;
+  background-color: #81c784;
+  height: 100vh;
+  position: relative;
 }
-.nav-bottom-container{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
+.nav-bottom-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
-@media screen and  (max-width:600px){
-    .nav-container{
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  .nav-container {
+    display: none;
+  }
 }
 /* NavbarLinks */
-.navbarlink-container{
-    padding: 4px;
-    text-align: center;
-    margin-bottom: 15px;
-    cursor: pointer;
+.navbarlink-container {
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 15px;
 }
-.navbar-link-icon{
-    scale: 0.8;
-    padding: 2.5px 20px;
-    border-radius: 100px;
+.navbar-link-icon {
+  scale: 0.8;
+  padding: 2.5px 20px;
+  border-radius: 100px;
+  color: blue;
+  cursor: pointer;
 }
-.navbar-link-icon:hover{
-    background-color: #EEEEEE;
+.navbar-link-icon:hover {
+  background-color: #519657;
 }
-.navbar-link-icon:active{
-    background-color: rgb(255, 242, 223);
+.navbar-link-icon:active {
+  background-color: #b2fab4;
+}
+.navbar-svg-icon:hover {
+  font-variation-settings: "wght" 400;
+}
+.navbar-svg-icon:active {
+    font-variation-settings: 'FILL' 1,"wght" 400, "opsz" 24;
+}
+.navlink-title {
+  font-family: euclidCircularBMedium;
+  font-size: 14px;
+}
 
-}
-.navbar-svg-icon:active{
-    scale: 0.8;
-}
-.navlink-title{
-    font-family: euclidCircularBMedium;
-    font-size: small;
+.navbar-svg-icon {
+  cursor: pointer;
+  color: black;
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+  opacity: 1;
 }
