@@ -1,11 +1,11 @@
 import "./Main.css";
+import Card from "./components/Card.jsx"
 
 function Main() {
   return (
     <>
       <div className="section-2-main">
-        <p>
-          The wire Vayuvyastra Club “VAYUVYASTRA” that we lead in Reva
+      <Card head="Who are we ?" details="The wire Vayuvyastra Club “VAYUVYASTRA” that we lead in Reva
           University essential science and space project. This club is place
           where students develop projects or activities and come up with
           innovative ideas related to science and Space Research which is
@@ -16,7 +16,9 @@ function Main() {
           introduces to the attitudes of persistence taste for research,
           co-operation, and respect for others in society. Furthermost, the club
           is resorted to the students at the technological universities with
-          different streams and different universities staffs.
+          different streams and different universities staffs."/>
+        <p>
+          
         </p>
       </div>
     </>
