@@ -4,10 +4,10 @@ function NavbarLinks(props) {
       <div className="navbarlink-container">
         <a href={props.href}>
           <div className="navbar-link-icon">
-            <img src={props.src} alt={props.name} className="navbar-svg-icon" />
+            <span class="navbar-svg-icon do-not-touch">{props.src}</span>
           </div>
         </a>
-        <p className="navlink-title">{props.name}</p>
+        <p className="navlink-title do-not-touch">{props.name}</p>
       </div>
     </>
   );

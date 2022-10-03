@@ -1,4 +1,4 @@
-.section-2-main{
-    height: calc(100vh - 60px);
-    overflow-y: auto;
+.section-2-main {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
 }
